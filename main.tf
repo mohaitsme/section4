@@ -29,7 +29,7 @@ module "ec2-lb" {
     aws_account_id              =   "640627924670"
     default_cooldown            =   "300"
     health_check_grace_period   =   "300"
-    ami_id                      =   "ami-067d1e60475437da2"
+    ami_id                      =   "ami-041feb57c611358bd"
     alb_listener_port           =   "80"
     alb_listener_protocol       =   "HTTP"
     key_name                    =   aws_key_pair.pubkey.key_name
