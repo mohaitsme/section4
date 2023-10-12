@@ -26,7 +26,7 @@ resource "aws_key_pair" "pubkey" {
 
 module "ec2-lb" {
     source                      =   "./Ec2"
-    aws_account_id              =   "290191426851"
+    aws_account_id              =   "640627924670"
     default_cooldown            =   "300"
     health_check_grace_period   =   "300"
     ami_id                      =   "ami-067d1e60475437da2"
